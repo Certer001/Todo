@@ -12,7 +12,7 @@
 .modal-body{
     position: relative;
     width: 400px;
-    height: 578px;
+    height: 515px;
     margin: 8% auto;
     background-color: white;
     padding-top: 0;
@@ -171,7 +171,7 @@
 
   .close-button{
       position: absolute;
-      left: 286px;
+      left: 317px;
       top: -12px;
       padding-left: 12px;
       padding-right: 11px;
@@ -183,4 +183,13 @@
       height: 235px;
       background: #FAAB1B;
     }
+
+    .modal-body{
+      position: relative;
+      width: 334px;
+      height: 515px;
+      margin: 8% auto;
+      background-color: white;
+      padding-top: 0;
+  }
  }

@@ -12,9 +12,9 @@ async function sendEmailTelegram(event) {
     const fromSendResult = document.querySelector('.form__send-result');
     fromSendResult.textContent = '';
     
-    const { name, email, phone, pass } = Object.fromEntries(new FormData(form).entries());
+    const { name, email, phone } = Object.fromEntries(new FormData(form).entries());
 
-    const text = `Заявка от ${name}!\nEmail: ${email}\nТелефон: ${phone}\nПаспортные данные: ${pass}`;
+    const text = `Имя: ${name}!\nEmail: ${email}\nСообщение: ${phone}`;
 
     try {
         formButton.textContent = 'Loading...';
