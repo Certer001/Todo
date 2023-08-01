@@ -72,18 +72,13 @@
 			</div>
 		</div>
 		<!-- //Form  -->
-		<!-- <button id="removeDoneTasks" class="btn btn-secondary mt-4 float-right">Удалить выполненные задачи</button> -->
-
+		<button id="js-openWindow-btn" class="btn btn-secondary mt-4 float-right">Открыть окно</button>
 	</div>
 
 	<div class="modal-window">
 		<div class="modal-body">
 			<button class="close-button" id="js-close-btn">x</button>
 			<form class="form" onsubmit="sendEmailTelegram(event)">
-				<div class="form__stripes-block">
-					<div class="form__line"></div>
-				</div>
-				<h3>Информация о пассажире</h3>
 				<div class="form__group">
 					<label for="name">Имя</label>
 					<input type="text" name="name" autocomplete="off" maxlength="50" required>
@@ -94,8 +89,9 @@
 					<label for="email">Email</label>
 					<input type="email" name="email" autocomplete="off" maxlength="50" required>
 	
-					<label for="phone">Номер телефона</label>
-					<input type="tel" name="phone" autocomplete="off" maxlength="15" required>
+					<!-- <label for="phone">Номер телефона</label>
+					<input type="tel" name="phone" autocomplete="off" maxlength="15" required> -->
+					<textarea name="phone" id="" cols="30" rows="10"></textarea>
 				</div>
 				<div class="form__submit-block">
 					<div class="form__submit-button">
@@ -112,7 +108,7 @@
 	</div>
 	<!-- дима лох -->
 	<script src="./js/form.js"></script>
-	<!-- <script src="js/modal.js"></script> -->
+	<script src="js/modal.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
