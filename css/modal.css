@@ -148,6 +148,7 @@
  .form textarea {
    resize: none;
    height: 235px;
+   background-color: white;
  }
 
  @media (max-width: 444px) {
@@ -169,11 +170,17 @@
   }
 
   .close-button{
-   position: absolute;
-   left: 286px;
-   top: -12px;
-   padding-left: 12px;
-   padding-right: 11px;
-   padding-top: 0;
-}
+      position: absolute;
+      left: 286px;
+      top: -12px;
+      padding-left: 12px;
+      padding-right: 11px;
+      padding-top: 0;
+   }
+
+   .form textarea {
+      resize: none;
+      height: 235px;
+      background-color: white;
+    }
  }
