@@ -149,3 +149,31 @@
    resize: none;
    height: 235px;
  }
+
+ @media (max-width: 444px) {
+   .form {
+      max-width: 300px;
+      margin: 0px auto 0;
+      padding: 20px;
+      background: #FAAB1B;
+      font-family: 'Oswald', sans-serif;
+   }
+
+   .modal-body{
+      position: relative;
+      width: 300px;
+      height: 578px;
+      margin: 8% auto;
+      background-color: white;
+      padding-top: 0;
+  }
+
+  .close-button{
+   position: absolute;
+   left: 286px;
+   top: -12px;
+   padding-left: 12px;
+   padding-right: 11px;
+   padding-top: 0;
+}
+ }
