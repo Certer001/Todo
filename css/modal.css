@@ -148,7 +148,7 @@
  .form textarea {
    resize: none;
    height: 235px;
-   background-color: white;
+   background: #FAAB1B;
  }
 
  @media (max-width: 444px) {
@@ -181,6 +181,6 @@
    .form textarea {
       resize: none;
       height: 235px;
-      background-color: white;
+      background: #FAAB1B;
     }
  }
