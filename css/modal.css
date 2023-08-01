@@ -33,6 +33,12 @@
     padding-right: 11px;
     padding-top: 0;
 }
+
+.close-button:hover {
+   background: black;
+   color: white;
+}
+
 .message{
     display: flex;
     justify-content: center;
